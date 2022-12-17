@@ -1,0 +1,292 @@
+* {
+    font-family:monospace;
+    color: rgb(0, 213, 255);
+}
+
+body {
+    background-color: rgb(18, 19, 18);
+}
+
+.profile_photo {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    box-shadow: 0px 15px 0px 0px rgb(79, 71, 71);
+    border-color: 1px red;
+    height: 330px;
+    width: 300px;
+    border-radius: 8cm;
+}
+
+.name {
+    position: absolute;
+    color: rgb(0, 249, 244);
+    top: 450px;
+    left: 100px;
+    padding-block: 10px;
+    border-color: blue;
+    font-family: monospace;
+    letter-spacing: 5px;
+}
+
+.another_border {
+    position: absolute;
+    left: 400px;
+    top: 270px;
+    width: 960px;
+
+}
+
+.border {
+    position: absolute;
+    width: 90px;
+    top: 270px;
+
+}
+
+.title {
+    position: absolute;
+    font-size: 70px;
+    top: 130px;
+    left: 570px;
+    letter-spacing: 25px;
+    font-family: fantasy;
+}
+
+
+/*          ABOUT            */
+.about {
+    position: absolute;
+    font-family: monospace;
+    top: 280px;
+    left: 750px;
+    font-size: 40px;
+}
+
+.about_content {
+    position: absolute;
+    top: 390px;
+    left: 640px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    letter-spacing: 0px;
+}
+/*          ABOUT CONCLUTION              */
+.conclude{
+    position:absolute;
+    font-size:20px;
+    left:100px;
+}
+/*         SKILLS TITLE               */
+.skills {
+    font-family: monospace;
+    position: absolute;
+    font-size: 45px;
+    top: 860px;
+    left: 600px;    
+}
+
+
+
+/*       SKILLS IMAGES        */
+
+.html{
+    position:absolute;
+    top: 1010px;
+    left:500px;
+    height: 60px;
+    border-radius:70px ; 
+    box-shadow: 0px 5px 5px 7px rgb(79, 71, 71);
+}
+.Bootstrap{
+    position:absolute;
+    top: 1010px;
+    left:645px;
+    height: 60px;
+    border-radius:70px ; 
+    box-shadow: 0px 5px 5px 7px rgb(79, 71, 71);
+
+}
+.CSS{
+    position:absolute;
+    top: 1010px;
+    left:790px;
+    height: 60px;
+    border-radius:70px ; 
+    box-shadow: 0px 5px 5px 7px rgb(79, 71, 71); 
+}
+.django{
+    position:absolute;
+    top: 1180px;
+    left:625px;
+    height: 60px;
+    border-radius:70px ; 
+    box-shadow: 0px 5px 5px 7px rgb(79, 71, 71);
+
+}
+.cube{
+    font-size:25px;
+    position:absolute;
+    top:1320px;
+    left:430px;
+
+}
+/*       SKILLS BUTTONS AND LINKS       */
+
+.html_name_button{
+    font-size:25px;
+    position:absolute;
+    top:1090px;
+    left: 495px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    height: 43px;
+    border-radius: 30px;
+}
+.bootstrap_name_button{
+    font-size:25px;
+    position:absolute;
+    top:1090px;
+    left:610px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    height: 43px;
+    border-radius: 30px;
+}
+.django_name_button{
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    height: 43px;
+    border-radius: 30px;
+    width: 95px;
+    font-size:25px;
+    position:absolute;
+    top:1253px;
+    left:625px;     
+}
+.css_name_button{
+    font-size:25px;
+    position:absolute;
+    top:1090px;
+    left:765px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    height: 43px;
+    border-radius: 30px;
+    width: 95px;
+    font-size:25px;
+}
+.skills_and_hobbies_hr{
+    width: 1400px;
+    position:absolute;
+    top:850px;   
+}
+
+/*       HOBBIES          */
+.hobbies_title{
+    font-size:45px;
+    position:absolute;
+    top: 1450px;
+    left: 590px;
+}
+.hobbies_list{
+    font-size:25px;
+    position:absolute;
+    top: 1550px;
+    left: 490px;
+
+}
+.hobbies_and_map_hr{
+        width: 1400px;
+        position:absolute;
+        top:1400px;
+}
+/*       MAP        */  
+.map{
+    position:absolute;
+    top: 1850px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.map_title{
+    font-family: monospace;
+    position: absolute;
+    font-size: 45px;
+    top: 1700px;
+    left: 630px;
+}
+
+.map_and_social_media_hr{
+    width: 1400px;
+    position:absolute;
+    top:2390px;
+}
+
+.map_and_hobbies_hr{
+    width: 1400px;
+    position:absolute;
+    top:1690px;
+}
+
+
+/*         SOCIAL MEDIA ACCOUNTS IMAGES AND LINKS             */
+.social_media_title{
+    font-size: 40px;
+    position:absolute;
+    top:2450px;
+    left:50px;
+}
+.facebook_account{
+    font-size:25px;
+    position:absolute;
+    top:2600px;
+    left:305px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    border-radius: 30px;
+    height: 100px;
+    width:95px;
+    font-size:25px;
+}
+.facebook_image{
+    box-shadow: 0px 5px 0px 0px rgb(79, 71, 71);
+    border-radius:30px;
+    border-color: rgb(76, 78, 79);
+    height: 90px;
+    width:80px;
+}
+.instagram_account{
+    position:absolute;
+    top:2600px;
+    left:500px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    border-radius: 30px;
+    height: 100px;
+    width:95px;
+
+}
+.teligram_account{
+    position:absolute;
+    top:2600px;
+    left:700px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    border-radius: 30px;
+    height: 100px;
+    width:95px;
+
+}
+.github_account{
+    position:absolute;
+    top:2600px;
+    left:900px;
+    background-color: rgb(80, 68, 68);
+    border-color:  rgb(80, 68, 68);
+    border-radius: 30px;
+    height: 100px;
+    width:95px;
+
+}
